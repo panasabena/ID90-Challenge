@@ -15,26 +15,27 @@ El análisis se divide en dos partes principales:
 
 La carpeta del proyecto está organizada de la siguiente manera para facilitar la comprensión y reproducibilidad:
 
-/ID90_Project/
-|
-├── data/
+```
+ID90_Project/
+├── Data/
 │   ├── 2025-07 purchases_challenge.csv   # Datos crudos de compras
 │   └── 2025-07 refunds_challenge.csv     # Datos crudos de devoluciones
-|
-├── processed_data/
-│   ├── 1_transacciones.csv               # Resumen por cliente (compras y devoluciones) agrupado por ID Member, 
-│   ├── 2_concatenado.csv                 # Dataframes concatenados, para trabajar con un solo dataframe todas las compras y devoluciones
-│   └── 3_customer_df.csv                 # Perfil final por cliente con métricas de churn. Dataframe con columnas adicionales.
-|
-├── notebooks/
+├── Processed_data/
+│   ├── transacciones.csv                 # Resumen por cliente (compras y devoluciones) agrupado por ID Member
+│   ├── concatenado.csv                   # Dataframes concatenados, para trabajar con un solo dataframe todas las compras y devoluciones
+│   └── customer_df.csv                   # Perfil final por cliente con métricas de churn. Dataframe con columnas adicionales.
+├── Notebooks/
 │   ├── EDA.ipynb                         # Notebook con el Análisis Exploratorio de Datos
-│   └── Analisis_y_Hallazgos.ipynb      # Notebook con gráficos y resumen de insights
-|
-├── dashboard_app.py                      # Script para ejecutar el dashboard interactivo
-|
-├── requirements.txt                      # Lista de librerías necesarias para el proyecto
-|
+│   └── Resumen de los Hallazgos.ipynb   # Notebook con gráficos y resumen de insights
+├── assets/
+│   ├── Background.png                     # Imágenes para el dashboard
+│   ├── background2.png
+│   ├── background3.png
+│   └── background4.png
+├── dashboard_app.py                       # Script para ejecutar el dashboard interactivo
+├── requirements.txt                       # Lista de librerías necesarias para el proyecto
 └── README.md                             # Este archivo
+```
 
 ## <ins>3. Instrucciones de uso</ins>
 
