@@ -1,0 +1,8 @@
+pandas
+dash
+plotly
+seaborn
+matplotlib
+missingno
+numpy
+ipywidgets
