@@ -136,3 +136,36 @@ __"2025-07 refunds_challenge"__:
 * __UsedCredit:__ Un indicador (Sí/No) si usó crédito.
 
 
+## 🚀 Deploy en Render
+
+Para hacer el deploy de tu dashboard en la web, puedes usar Render.com de forma gratuita:
+
+### Pasos para Deploy:
+
+1. **Fork este repositorio** en tu cuenta de GitHub
+2. **Ve a [Render.com](https://render.com)** y crea una cuenta gratuita
+3. **Crea un nuevo Web Service**
+4. **Conecta tu repositorio de GitHub**
+5. **Configura el servicio:**
+   - **Name:** `id90-dashboard` (o el nombre que prefieras)
+   - **Environment:** `Python 3`
+   - **Build Command:** `pip install -r requirements.txt`
+   - **Start Command:** `gunicorn app:server`
+   - **Plan:** Free
+
+6. **Haz clic en "Create Web Service"**
+
+Render automáticamente detectará los archivos de configuración (`Procfile`, `runtime.txt`) y desplegará tu aplicación.
+
+### Archivos de Configuración Agregados:
+
+- `Procfile`: Configuración para Render
+- `runtime.txt`: Versión de Python
+- `app.py`: Archivo de entrada para producción
+- `gunicorn` agregado a `requirements.txt`
+
+### Resultado:
+
+Tu dashboard estará disponible en una URL pública como: `https://tu-app.onrender.com`
+
+---

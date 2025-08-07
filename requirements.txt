@@ -6,3 +6,4 @@ matplotlib
 missingno
 numpy
 ipywidgets
+gunicorn
