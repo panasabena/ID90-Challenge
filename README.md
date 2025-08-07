@@ -1,4 +1,4 @@
-# <ins>__Análisis de Cancelación de Clientes (Churn) para ID90__</ins>
+# <ins>__Análisis de Clientes para ID90__</ins>
 
 ## <ins>__1. Resumen del Proyecto__</ins>
 
