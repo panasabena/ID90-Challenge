@@ -166,6 +166,6 @@ Render automáticamente detectará los archivos de configuración (`Procfile`, `
 
 ### Resultado:
 
-Tu dashboard estará disponible en una URL pública como: `https://tu-app.onrender.com`
+Tu dashboard estará disponible en una URL pública como: `https://id90-challenge.onrender.com`
 
 ---
